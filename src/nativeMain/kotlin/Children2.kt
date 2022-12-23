@@ -1,0 +1,2 @@
+class Children2(override var name: String, override var surname: String, override var age: Int):Dad(name, surname, age){
+}//to override the interface "InterFace" use instead of ":Dad(name, surname, age)" this sentence -> :InterFace

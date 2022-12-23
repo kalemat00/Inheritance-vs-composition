@@ -1,0 +1,2 @@
+class children (override var name: String, override var surname: String, override var age: Int) :InterFace{
+}//to override the open class dad use instead of ":InterFace" this sentence          ->         :Dad(name, surname, age)
